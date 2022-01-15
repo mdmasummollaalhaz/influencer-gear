@@ -1,6 +1,92 @@
-/* ----------------
-**  Global css
-------------------*/
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&family=Poppins:wght@500;600;700&display=swap');
+
+
+/* -------------------------------
+** Global/Common/Utilites STYLE
+--------------------------------*/
 body{
-    margin: 0;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    width: 1200px;
+    padding: 50px 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+h1{
+    color: #3A3A3A;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+    margin: 0px;
+}
+h2{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 70px;
+}
+h3{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px;
+}
+p{
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+a{
+    text-decoration: none;
+}
+.button{
+    color:#fff;
+    background-color: #E02C6D;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 7px 20px;
+    border-radius: 50px;
+    transition: 0.3s ease;
+}
+.button:hover{
+    color:#fff;
+    background-color: #b11e53;
+}
+.button i {
+    margin-left: 11px;
+}
+img{
+    width: 80%;
+}
+hr{
+    border: 1px solid #D1D1D1;
+    margin-bottom: 27px;
+}
+
+/* Hero css */
+.hero-content{
+
+}
+.hero-content .title{
+    
+}
+.hero-content .description{
+    margin-bottom: 33px;
+}
+.hero-feature-img{
+    float: right;
+    text-align: end;
+}
+.hero-feature-img img{
+    width: 70%;
 }
